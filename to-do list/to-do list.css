@@ -1,0 +1,68 @@
+@charset "UTF-8";
+body {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div {
+    background: #fff;
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px violet;
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 75%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+button {
+    padding: 8px 2px;
+    background-color: violet;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkviolet;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+li {
+    margin-top: 5px;
+    background: white;
+    padding: 6px;
+    border: 1px solid violet;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li button {
+    background: red;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 4px 8px;
+}
